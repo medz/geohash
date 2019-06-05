@@ -1,0 +1,17 @@
+{
+    "name": "medz/geohash",
+    "description": "Longitude and Latitude Geo Hash Library.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Seven Du",
+            "email": "shiweidu@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Medz\\GeoHash\\": "src/"
+        }
+    }
+}
