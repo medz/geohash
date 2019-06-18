@@ -65,6 +65,6 @@ class Encoder
      */
     public function __toString()
     {
-        return $this->__toString();
+        return $this->toString();
     }
 }
