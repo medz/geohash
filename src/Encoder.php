@@ -11,7 +11,7 @@ class Encoder
     public function __construct(array $coordinates, int $length = GeoHash::MAX_LENGTH)
     {
         if ($length < GeoHash::MIN_LENGTH || $length > GeoHash::MAX_LENGTH) {
-            throw new InvalidArgumentException('The length should be between 1 and 12.');
+            throw new InvalidArgumentException("The length should be between {GeoHash::MIN_LENGTH} and {GeoHash::MAX_LENGTH}.");
         }
 
         $latitudeInterval  = GeoHash::$latitudeInterval;
